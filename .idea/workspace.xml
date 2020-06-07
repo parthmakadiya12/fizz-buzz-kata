@@ -66,13 +66,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.GameTest.shouldPrintFizzAtEveryMultipleOf3">
-    <configuration name="GameTest.shouldCreateGame" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.GameTest">
+    <configuration name="GameTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;GameTest.shouldCreateGame&quot;" />
+        <option name="scriptParameters" value="--tests &quot;GameTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -169,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.GameTest" />
         <item itemvalue="Gradle.GameTest.shouldPrintFizzAtEveryMultipleOf3" />
         <item itemvalue="Gradle.GameTest.shouldPrintFizzBuzzForEveryDivisibleOf3And5Both" />
         <item itemvalue="Gradle.GameTest.shouldPrintBuzzAtEvery5thOccurance" />
         <item itemvalue="Gradle.GameTest.shouldPrintOneToTen" />
-        <item itemvalue="Gradle.GameTest.shouldCreateGame" />
       </list>
     </recent_temporary>
   </component>

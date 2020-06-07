@@ -23,6 +23,18 @@ For example :
 14 - 14
 15 - FizzBuzz
 ```
+- We used arrayList
+- However we could have just took the string and do it. See below
+```
+ for (int i = 1; i < 100; i++) {
+     String output = "";
+     if (i % 3 == 0) output += "Fizz";
+     if (i % 5 == 0) output += "Buzz";
+     
+     System.out.println(output.isEmpty() ? i : output);
+  }
+```
+
 
 References:
 - https://codingdojo.org/kata/FizzBuzz/
