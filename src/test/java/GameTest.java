@@ -34,4 +34,11 @@ class GameTest {
         assertEquals("Buzz", game.printFizzBuzz().get(9));
     }
 
+    @Test
+    public void shouldPrintFizzBuzzForEveryDivisibleOf3And5Both() {
+        Game game = new Game(30);
+        assertEquals("FizzBuzz", game.printFizzBuzz().get(14));
+        assertEquals("FizzBuzz", game.printFizzBuzz().get(29));
+    }
+
 }
