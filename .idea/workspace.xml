@@ -9,7 +9,6 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fizzbuzz/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fizzbuzz/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/GameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GameTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +66,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.GameTest.shouldPrintFizzBuzzForEveryDivisibleOf3And5Both">
+  <component name="RunManager" selected="Gradle.GameTest.shouldPrintFizzAtEveryMultipleOf3">
     <configuration name="GameTest.shouldCreateGame" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -170,9 +169,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.GameTest.shouldPrintFizzAtEveryMultipleOf3" />
         <item itemvalue="Gradle.GameTest.shouldPrintFizzBuzzForEveryDivisibleOf3And5Both" />
         <item itemvalue="Gradle.GameTest.shouldPrintBuzzAtEvery5thOccurance" />
-        <item itemvalue="Gradle.GameTest.shouldPrintFizzAtEveryMultipleOf3" />
         <item itemvalue="Gradle.GameTest.shouldPrintOneToTen" />
         <item itemvalue="Gradle.GameTest.shouldCreateGame" />
       </list>
@@ -189,7 +188,7 @@
       <option name="presentableId" value="Default" />
       <updated>1591538877565</updated>
       <workItem from="1591538878855" duration="135000" />
-      <workItem from="1591539035983" duration="3373000" />
+      <workItem from="1591539035983" duration="3837000" />
     </task>
     <servers />
   </component>
