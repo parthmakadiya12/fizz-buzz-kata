@@ -16,13 +16,22 @@ class GameTest {
 
     @Test
     public void shouldPrintFizzAtEveryMultipleOf3() {
-        Game game = new Game(5);
+        Game game = new Game(6);
         ArrayList<String> expected = new ArrayList<String>();
         expected.add("1");
         expected.add("2");
         expected.add("Fizz");
         expected.add("4");
-        expected.add("5");
+        expected.add("Buzz");
+        expected.add("Fizz");
         assertEquals(expected, game.printFizzBuzz());
     }
+
+    @Test
+    public void shouldPrintBuzzAtEvery5thOccurance() {
+        Game game = new Game(12);
+        assertEquals("Buzz", game.printFizzBuzz().get(4));
+        assertEquals("Buzz", game.printFizzBuzz().get(9));
+    }
+
 }
